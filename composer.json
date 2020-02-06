@@ -28,7 +28,7 @@
         "php": "^7.1",
         "graham-campbell/guzzle-factory": "^3.0",
         "guzzlehttp/guzzle": "^6.2",
-        "spatie/flysystem-dropbox": "^6.2"
+        "spatie/flysystem-dropbox": "^1.2.2"
     },
     "replace": {
         "spatie/dropbox-api": "*"
