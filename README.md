@@ -42,7 +42,7 @@ With an authorization token you can instantiate a `Spatie\Dropbox\Client`.
 $client = new Agyson\Dropbox\Client($authorizationToken);
 ```
 
-Look in [the source code of `Spatie\Dropbox\Client`](https://github.com/spatie/dropbox-api/blob/master/src/Client.php) to discover the methods you can use.
+Look in [the source code of `Spatie\Dropbox\Client`](https://github.com/agyson/dropbox-api/blob/master/src/Client.php) to discover the methods you can use.
 
 If you do not find your favorite method, you can directly use the `contentEndpointRequest` and `rpcEndpointRequest` functions.
 
