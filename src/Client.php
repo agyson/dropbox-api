@@ -376,6 +376,7 @@ class Client
         $arguments = [
             'path' => $this->normalizePath($path),
             'mode' => $mode,
+            'autorename' => true
         ];
 
         $response = $this->contentEndpointRequest('files/upload', $arguments, $contents);
